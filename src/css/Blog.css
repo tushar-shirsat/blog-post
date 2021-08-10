@@ -1,0 +1,7 @@
+.blog{
+    max-width: var(--mx-width);
+    width: var(--mx-width);
+    padding: 0 1rem;
+    margin: auto;
+    margin-top: 4rem;
+}

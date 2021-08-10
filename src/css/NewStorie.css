@@ -1,0 +1,57 @@
+.newStorie{
+    width: var(--mx-width);
+    margin: auto;
+    max-width: var(--mx-width);
+    margin-top: 3rem;
+    padding: 0 1rem;
+}
+
+.newStorie-control{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.newStorie-control-title-inp{
+    font-size: 3rem;
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.newStorie__storie{
+    width: 100%;
+    height: 40rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+    padding: 1rem 0.5rem;
+}
+
+.newStorie-control-title-inp::placeholder{
+    color: #aaa;
+    font-weight: 500 ;
+}
+
+.newStorie__storie::placeholder{
+    color: #aaa !important;
+    font-size: bold !important;
+}
+
+.submit__btn{
+    font-size: 1.6rem;
+    margin-left: auto;
+    display: block;
+    padding: 0.5rem 2rem;
+    font-family: bold;
+    background-color: var(--main-clr);
+    color: #fff;
+    border-radius: 100vw;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}

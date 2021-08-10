@@ -1,0 +1,32 @@
+.homePopulerPost{
+    width: 100%;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.homePopulerPost:last-child{
+    border-bottom: none;
+}
+
+.homePopulerPost__img{
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.homePopulerPost__title{
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+
+
+.homePopulerPost__post-date{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #aaa;
+}

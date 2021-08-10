@@ -1,0 +1,31 @@
+.story{
+    padding: 1rem 0;
+    border-bottom: 1px solid #aaa;
+}
+
+.story__title{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.story__btn-container{
+    margin-bottom: 1rem;
+}
+
+.stroy__btn{
+    margin-right: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background-color: var(--main-clr);
+    border-radius: 100vw;
+    border:none;
+    outline: none;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.story__date{
+    font-size: 1.4rem;
+    color: #aaa;
+}
